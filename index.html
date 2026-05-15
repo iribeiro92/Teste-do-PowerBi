@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Power BI Embed - Versão 1.1</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Power BI Embed</h1>
+      <p>Versão de teste 1.1</p>
+    </header>
+
+    <section class="panel">
+      <label for="embedUrl">URL do Embed Power BI</label>
+      <input id="embedUrl" type="text" placeholder="Cole aqui o link do iframe do Power BI" />
+      <button id="loadButton">Carregar Iframe</button>
+      <p class="hint">Use o URL de embed do Power BI ou o src do seu iframe.</p>
+    </section>
+
+    <section class="preview">
+      <h2>Visualização</h2>
+      <div class="iframe-wrapper">
+        <iframe title="População" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMGE0ZDgxZjItODIwNS00YWRjLThhYWItNTk1YWM5YTU5NzM3IiwidCI6ImYzOThkZjljLWZkMGMtNDgyOS1hMDAzLWM3NzBhMWM0YTA2MyJ9" frameborder="0" allowFullScreen="true"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
