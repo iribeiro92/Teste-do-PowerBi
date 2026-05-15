@@ -16,7 +16,7 @@ Site simples para teste 1.1 de embed de Power BI.
 
 ## Publicação GitHub Pages
 
-Um workflow GitHub Actions foi adicionado em `.github/workflows/pages.yml` para publicar o conteúdo do repositório na branch `gh-pages` sempre que houver push na branch `main`.
+Um workflow GitHub Actions foi adicionado em `.github/workflows/pages.yml` para publicar o conteúdo do repositório automaticamente sempre que houver push na branch `main`.
 
 Após enviar as alterações para o GitHub, o site ficará disponível em:
 
